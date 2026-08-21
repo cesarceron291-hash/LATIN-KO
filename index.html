@@ -118,10 +118,31 @@
   .bill{padding:60px 0 10px;}
   .bill-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:26px;gap:20px;flex-wrap:wrap;}
   .section-title{font-family:'Anton',sans-serif;font-size:clamp(26px,3.4vw,38px);text-transform:uppercase;letter-spacing:0.5px;}
-  .section-sub{color:var(--canvas-dim);font-size:14px;margin-top:6px;max-width:44ch;}
+  ..section-sub{
+  color:var(--canvas-dim);
+  font-size:18px;
+  line-height:1.45;
+  margin-top:8px;
+  max-width:65ch;
+}
   .card{background:var(--ink-2);border:1px solid var(--line);border-radius:6px;}
 
-  .bill-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:16px;}
+  .bill-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:16px;}.event-poster{
+  width:100%;
+  max-width:1100px;
+  margin:0 auto 28px;
+  overflow:hidden;
+  border-radius:6px;
+  border:1px solid var(--line);
+}
+
+.event-poster img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16 / 9;
+  object-fit:cover;
+}
   .main-event{padding:28px;position:relative;overflow:hidden;}
   .main-event::before{
     content:"CARTELERA";position:absolute;right:-10px;top:14px;font-family:'Anton',sans-serif;
