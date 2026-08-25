@@ -268,6 +268,9 @@
     .wrap{padding:0 18px;}
   }
 </style>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0A0F1E">
+
 </head>
 
 <body>
@@ -935,6 +938,16 @@
   setTimeout(() => {
     statusText.textContent = 'VER TRANSMISIÓN EN VIVO';
   }, 1200);
+</script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/sw.js").catch(err => {
+        console.log("Service worker no registrado:", err);
+      });
+    });
+  }
 </script>
 
 </body>
