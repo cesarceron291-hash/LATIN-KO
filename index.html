@@ -74,6 +74,55 @@
   .menu-toggle{display:none;background:none;border:none;color:var(--canvas);font-size:26px;cursor:pointer;}
 
   /* HERO / STREAM */
+
+  /* CONTADOR PRÓXIMA TRANSMISIÓN */
+  /* POSTER PRÓXIMA TRANSMISIÓN */
+.next-live-poster{
+  margin:22px 0 28px;
+  border:1px solid var(--line-strong);
+  border-radius:8px;
+  overflow:hidden;
+  background:#000;
+  box-shadow:0 24px 60px -30px rgba(0,0,0,0.8);
+}
+
+.next-live-poster img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+.countdown{
+  display:flex;
+  gap:10px;
+  margin:20px 0 28px;
+  flex-wrap:wrap;
+}
+
+.count-box{
+  min-width:100px;
+  padding:14px 18px;
+  background:var(--ink-2);
+  border:1px solid var(--line-strong);
+  border-radius:5px;
+  text-align:center;
+}
+
+.count-box span{
+  display:block;
+  font-family:'Anton',sans-serif;
+  font-size:38px;
+  line-height:1;
+  color:var(--gold);
+}
+
+.count-box small{
+  display:block;
+  margin-top:7px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:10px;
+  letter-spacing:1.5px;
+  color:var(--canvas-dim);
+}
   .hero{padding:44px 0 20px;}
   .hero-top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:18px;flex-wrap:wrap;}
   .eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:3px;color:var(--red);text-transform:uppercase;margin-bottom:10px;}
@@ -300,16 +349,50 @@
   <!-- HERO: LIVE STREAM -->
   <section class="hero" id="en-vivo">
     <div class="wrap">
-      <div class="eyebrow">La evolución a una nueva era en el mundo de la promoción boxística</div>
-      <div class="hero-top">
-        <h1>Boxeo en <span class="accent">vivo</span>,<br>sin cambiar de canal</h1>
-        <div class="status-badge" id="statusBadge">
-          <span class="pulse"></span>
-          <span id="statusText">VERIFICANDO SEÑAL…</span>
-        </div>
-      </div>
+      <div id="proximaTransmision">
+  <div class="eyebrow">PRÓXIMA TRANSMISIÓN</div>
 
-      <div class="stream-frame">
+  <div class="hero-top">
+    <h1>
+      CIUDAD <span class="accent">JUÁREZ</span><br>
+      19 DE SEPTIEMBRE
+    </h1>
+
+    <div class="status-badge">
+      <span class="pulse"></span>
+      <span>PRÓXIMAMENTE</span>
+    </div>
+  </div>
+
+  <div class="countdown" id="countdown">
+    <div class="count-box">
+      <span id="days">00</span>
+      <small>DÍAS</small>
+    </div>
+
+    <div class="count-box">
+      <span id="hours">00</span>
+      <small>HORAS</small>
+    </div>
+
+    <div class="count-box">
+      <span id="minutes">00</span>
+      <small>MIN</small>
+    </div>
+
+    <div class="count-box">
+      <span id="seconds">00</span>
+      <small>SEG</small>
+    </div>
+  </div>
+</div>
+<div class="next-live-poster">
+  <img
+    src="images/cartelera/juarez-diana-fernandez.jpg"
+    alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
+  >
+</div>
+      <div class="stream-frame" id="streamEnVivo">
         <div class="stream-corner tl"></div>
         <div class="stream-corner tr"></div>
         <div class="stream-corner bl"></div>
@@ -324,7 +407,7 @@
         </iframe>
       </div>
 
-      <div class="stream-bar">
+      <div class="stream-bar" id="streamBarEnVivo">
         <div class="left">
           <span>Transmitido en directo desde <b>Kick</b></span>
           <span>·</span>
@@ -930,10 +1013,24 @@
   // Simple heuristic status label: Kick's iframe itself will show "offline" art when not streaming,
   // this badge is just a friendly text cue and defaults to "checking" then settles to a neutral state.
   const statusText = document.getElementById('statusText');
-  const pulse = document.querySelector('.status-badge .pulse');
-  setTimeout(() => {
-    statusText.textContent = 'VER TRANSMISIÓN EN VIVO';
-  }, 1200);
+  const MODO_EN_VIVO = false;
+
+const proximaTransmision = document.getElementById('proximaTransmision');
+const posterProxima = document.querySelector('.next-live-poster');
+const streamEnVivo = document.getElementById('streamEnVivo');
+const streamBarEnVivo = document.getElementById('streamBarEnVivo');
+
+if (MODO_EN_VIVO) {
+  if (proximaTransmision) proximaTransmision.style.display = 'none';
+  if (posterProxima) posterProxima.style.display = 'none';
+  if (streamEnVivo) streamEnVivo.style.display = 'block';
+  if (streamBarEnVivo) streamBarEnVivo.style.display = 'flex';
+} else {
+  if (proximaTransmision) proximaTransmision.style.display = 'block';
+  if (posterProxima) posterProxima.style.display = 'block';
+  if (streamEnVivo) streamEnVivo.style.display = 'none';
+  if (streamBarEnVivo) streamBarEnVivo.style.display = 'none';
+}
 </script>
 
 <script>
@@ -945,6 +1042,45 @@
     });
   }
 </script>
+<script>
+  // Próxima transmisión:
+  // Ciudad Juárez — 19 de septiembre de 2026 — 7:00 PM
+  const fechaTransmision = new Date('2026-09-19T19:00:00-06:00').getTime();
 
+  function actualizarContador() {
+    const ahora = new Date().getTime();
+    const diferencia = fechaTransmision - ahora;
+
+    const dias = document.getElementById('days');
+    const horas = document.getElementById('hours');
+    const minutos = document.getElementById('minutes');
+    const segundos = document.getElementById('seconds');
+
+    if (!dias || !horas || !minutos || !segundos) return;
+
+    if (diferencia <= 0) {
+      dias.textContent = '00';
+      horas.textContent = '00';
+      minutos.textContent = '00';
+      segundos.textContent = '00';
+      return;
+    }
+
+    dias.textContent =
+      String(Math.floor(diferencia / (1000 * 60 * 60 * 24))).padStart(2, '0');
+
+    horas.textContent =
+      String(Math.floor((diferencia / (1000 * 60 * 60)) % 24)).padStart(2, '0');
+
+    minutos.textContent =
+      String(Math.floor((diferencia / (1000 * 60)) % 60)).padStart(2, '0');
+
+    segundos.textContent =
+      String(Math.floor((diferencia / 1000) % 60)).padStart(2, '0');
+  }
+
+  actualizarContador();
+  setInterval(actualizarContador, 1000);
+</script>
 </body>
 </html>
