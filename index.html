@@ -95,21 +95,29 @@
   /* BLOQUE PRÓXIMA TRANSMISIÓN EN DOS COLUMNAS */
 .proxima-grid{
   display:grid;
-  grid-template-columns:1.05fr .95fr;
-  gap:28px;
-  align-items:start;
-  margin-bottom:24px;
+  grid-template-columns:1fr 1fr;
+  gap:32px;
+  align-items:stretch;
+  margin-bottom:28px;
 }
 
 .proxima-left{
   min-width:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
 }
 
 .proxima-info{
   background:var(--ink-2);
   border:1px solid var(--line-strong);
   border-radius:8px;
-  padding:24px;
+  padding:28px;
+  height:100%;
+  box-sizing:border-box;
+}
+.hero h1 .accent{
+  color:#5f7dff;
 }
 
 .proxima-info h2{
