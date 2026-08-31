@@ -92,48 +92,112 @@
   height:auto;
 }
 
-  /* BLOQUE PRÓXIMA TRANSMISIÓN EN DOS COLUMNAS */
+  /* BLOQUE PRÓXIMA TRANSMISIÓN */
+
 .proxima-grid{
-  display:grid;
-  grid-template-columns:1.2fr .65fr 1.15fr;
-  gap:24px;
-  align-items:start;
+  display:block;
   margin-bottom:28px;
 }
 
-.proxima-left{
-  min-width:0;
+.proxima-header{
   display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  margin-bottom:18px;
+  border-bottom:1px solid var(--line-strong);
+  padding-bottom:14px;
+}
+
+.proxima-header .eyebrow{
+  margin:0;
+  flex-shrink:0;
+}
+
+.proxima-header h1{
+  margin:0;
+  font-family:'Anton',sans-serif;
+  font-size:clamp(28px,3.5vw,48px);
+  line-height:1;
+  text-transform:uppercase;
+  text-align:right;
+}
+
+.proxima-header .accent{
+  color:#f2c94c;
+}
+
+.proxima-fecha{
+  color:var(--canvas);
+  margin-left:16px;
+}
+
+.proxima-count{
+  max-width:720px;
+  margin:0 auto 22px;
+}
+
+.proxima-evento{
+  display:grid;
+  grid-template-columns:1fr 1.35fr 1fr;
+  gap:22px;
+  align-items:center;
+}
+
+.proxima-cartel{
+  min-width:0;
+}
+
+.proxima-cartel img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:8px;
+  border:1px solid var(--line-strong);
+}
+
+.proxima-extra{
+  min-width:0;
+}
+
+.proxima-extra strong{
+  display:block;
+  font-family:'Anton',sans-serif;
+  font-size:clamp(22px,2.3vw,34px);
+  line-height:1.08;
+  text-transform:uppercase;
+}
+
+.proxima-extra strong span{
+  display:block;
+  color:#f2c94c;
+  font-size:.65em;
+  margin:8px 0;
 }
 
 .proxima-info{
-  background:var(--ink-2);
-  border:1px solid var(--line-strong);
-  border-radius:8px;
-  padding:20px;
-  height:100%;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  padding:0;
+  height:auto;
   box-sizing:border-box;
-}
-.hero h1 .accent{
-  color:#f2c94c;
 }
 
 .proxima-info h2{
   font-family:'Anton',sans-serif;
-  font-size:clamp(20px,2.1vw,32px);
-  line-height:1.02;
+  font-size:clamp(22px,2.4vw,36px);
+  line-height:1.06;
   text-transform:uppercase;
-  margin:0 0 12px;
+  margin:0 0 18px;
 }
 
 .proxima-info h2 span{
-  color:var(--red);
-  font-size:.7em;
-  margin:0 6px;
+  display:block;
+  color:#f2c94c;
+  font-size:.65em;
+  margin:8px 0;
 }
-
 .proxima-info > p{
   color:var(--canvas-dim);
   line-height:1.5;
@@ -179,14 +243,33 @@
 
 @media(max-width:900px){
   .proxima-grid{
-    grid-template-columns:1fr;
-    gap:18px;
-  }
-
+  display:block;
+  margin-bottom:24px;
+}
   .proxima-count{
     width:100%;
   }
+.proxima-header{
+  display:block;
+  padding-bottom:12px;
+  margin-bottom:14px;
+}
 
+.proxima-header .eyebrow{
+  margin-bottom:7px;
+}
+
+.proxima-header h1{
+  font-size:28px;
+  line-height:1.05;
+  text-align:left;
+}
+
+.proxima-fecha{
+  display:block;
+  margin:5px 0 0;
+  font-size:20px;
+}
   .countdown{
     grid-template-columns:repeat(4,1fr);
     gap:6px;
@@ -216,8 +299,12 @@
   }
 
   .proxima-info{
-    padding:20px;
-  }
+  padding:0;
+}
+.proxima-evento{
+  grid-template-columns:1fr;
+  gap:18px;
+}
 
   .proxima-info h2{
     font-size:26px;
@@ -485,19 +572,18 @@
     <div class="wrap">
       <div id="proximaTransmision" class="proxima-grid">
 
-  <!-- COLUMNA 1: EVENTO -->
-  <div class="proxima-left">
+  <!-- ENCABEZADO -->
+  <div class="proxima-header">
     <div class="eyebrow">PRÓXIMA TRANSMISIÓN</div>
 
     <h1>
-      CIUDAD <span class="accent">JUÁREZ</span><br>
-      19 DE SEPTIEMBRE
+      CIUDAD <span class="accent">JUÁREZ</span>
+      <span class="proxima-fecha">19 DE SEPTIEMBRE</span>
     </h1>
   </div>
 
-  <!-- COLUMNA 2: CONTADOR -->
+  <!-- CONTADOR -->
   <div class="proxima-count">
-
     <div class="countdown" id="countdown">
 
       <div class="count-box">
@@ -526,57 +612,56 @@
       <span class="pulse"></span>
       <span>PRÓXIMAMENTE</span>
     </div>
+  </div>
+
+  <!-- INFORMACIÓN DEL EVENTO -->
+  <div class="proxima-evento">
+
+    <div class="proxima-info">
+      <div class="eyebrow">CAMPEONATO MUNDIAL WBC</div>
+
+      <h2>
+        DIANA “BONITA” FERNÁNDEZ
+        <span>VS</span>
+        CLOTHILDE DEL BEN
+      </h2>
+
+      <div class="event-data">
+        <div>
+          <small>SEDE</small>
+          <strong>Gimnasio Josué Neri Santos · Ciudad Juárez</strong>
+        </div>
+
+        <div>
+          <small>FECHA</small>
+          <strong>Sábado 19 de septiembre de 2026</strong>
+        </div>
+
+        <div>
+          <small>HORA</small>
+          <strong>7:00 PM</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="proxima-cartel">
+      <img
+        src="images/cartelera/juarez-diana-fernandez.jpg"
+        alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
+      >
+    </div>
+
+    <div class="proxima-extra">
+      <div class="eyebrow">TAMBIÉN EN LA CARTELERA</div>
+      <strong>
+        Daijhon González “Gladiator”
+        <span>VS</span>
+        Ramón Montes “Donas”
+      </strong>
+    </div>
 
   </div>
 
-  <!-- COLUMNA 3: PELEA ESTELAR -->
-  <div class="proxima-info">
-
-    <div class="eyebrow">CAMPEONATO MUNDIAL WBC</div>
-
-    <h2>
-      DIANA “BONITA” FERNÁNDEZ
-      <span>VS</span>
-      CLOTHILDE DEL BEN
-    </h2>
-
-    <p>
-      La mexicana Diana “Bonita” Fernández tendrá una gran oportunidad
-      ante la francesa Clothilde Del Ben, en una noche de campeonato mundial.
-    </p>
-
-    <div class="event-data">
-
-      <div>
-        <small>SEDE</small>
-        <strong>Gimnasio Josué Neri Santos · Ciudad Juárez</strong>
-      </div>
-
-      <div>
-        <small>FECHA</small>
-        <strong>Sábado 19 de septiembre de 2026</strong>
-      </div>
-
-      <div>
-        <small>HORA</small>
-        <strong>7:00 PM</strong>
-      </div>
-
-    </div>
-
-    <div class="event-extra">
-      <small>TAMBIÉN EN LA CARTELERA</small>
-      <strong>Daijhon González “Gladiator” vs Ramón Montes “Donas”</strong>
-    </div>
-
-  </div>
-
-</div>
-<div class="next-live-poster">
-  <img
-    src="images/cartelera/juarez-diana-fernandez.jpg"
-    alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
-  >
 </div>
       <div class="stream-frame" id="streamEnVivo">
         <div class="stream-corner tl"></div>
