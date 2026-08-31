@@ -95,10 +95,31 @@
   /* BLOQUE PRÓXIMA TRANSMISIÓN EN DOS COLUMNAS */
 .proxima-grid{
   display:grid;
-  grid-template-columns:1.05fr .75fr 1.35fr;
+  grid-template-columns:1fr .75fr 1.15fr;
+  grid-template-areas:
+    "evento contador info"
+    "poster poster poster";
   gap:24px;
   align-items:start;
   margin-bottom:28px;
+}
+
+.proxima-left{
+  grid-area:evento;
+  min-width:0;
+}
+
+.proxima-count{
+  grid-area:contador;
+  min-width:0;
+}
+
+.proxima-info{
+  grid-area:info;
+}
+
+.next-live-poster{
+  grid-area:poster;
 }
 
 .proxima-left{
@@ -471,94 +492,11 @@
   <!-- HERO: LIVE STREAM -->
   <section class="hero" id="en-vivo">
     <div class="wrap">
-      <div id="proximaTransmision" class="proxima-grid">
-
-  <!-- COLUMNA 1: EVENTO -->
-  <div class="proxima-left">
-    <div class="eyebrow">PRÓXIMA TRANSMISIÓN</div>
-
-    <h1>
-      CIUDAD <span class="accent">JUÁREZ</span><br>
-      19 DE SEPTIEMBRE
-    </h1>
-  </div>
-
-  <!-- COLUMNA 2: CONTADOR -->
-  <div class="proxima-count">
-
-    <div class="countdown" id="countdown">
-
-      <div class="count-box">
-        <span id="days">00</span>
-        <small>DÍAS</small>
-      </div>
-
-      <div class="count-box">
-        <span id="hours">00</span>
-        <small>HORAS</small>
-      </div>
-
-      <div class="count-box">
-        <span id="minutes">00</span>
-        <small>MIN</small>
-      </div>
-
-      <div class="count-box">
-        <span id="seconds">00</span>
-        <small>SEG</small>
-      </div>
-
-    </div>
-
-    <div class="status-badge">
-      <span class="pulse"></span>
-      <span>PRÓXIMAMENTE</span>
-    </div>
-
-  </div>
-
-  <!-- COLUMNA 3: PELEA ESTELAR -->
-  <div class="proxima-info">
-
-    <div class="eyebrow">CAMPEONATO MUNDIAL WBC</div>
-
-    <h2>
-      DIANA “BONITA” FERNÁNDEZ
-      <span>VS</span>
-      CLOTHILDE DEL BEN
-    </h2>
-
-    <p>
-      La mexicana Diana “Bonita” Fernández tendrá una gran oportunidad
-      ante la francesa Clothilde Del Ben, en una noche de campeonato mundial.
-    </p>
-
-    <div class="event-data">
-
-      <div>
-        <small>SEDE</small>
-        <strong>Gimnasio Josué Neri Santos · Ciudad Juárez</strong>
-      </div>
-
-      <div>
-        <small>FECHA</small>
-        <strong>Sábado 19 de septiembre de 2026</strong>
-      </div>
-
-      <div>
-        <small>HORA</small>
-        <strong>7:00 PM</strong>
-      </div>
-
-    </div>
-
-    <div class="event-extra">
-      <small>TAMBIÉN EN LA CARTELERA</small>
-      <strong>Daijhon González “Gladiator” vs Ramón Montes “Donas”</strong>
-    </div>
-
-  </div>
-
+      <div class="next-live-poster">
+  <img
+    src="images/cartelera/juarez-diana-fernandez.jpg"
+    alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
+  >
 </div>
 <div class="next-live-poster">
   <img
