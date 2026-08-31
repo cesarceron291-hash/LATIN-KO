@@ -112,8 +112,10 @@
 .proxima-header .eyebrow{
   margin:0;
   flex-shrink:0;
+  font-size:24px;
+  letter-spacing:4px;
+  font-weight:700;
 }
-
 .proxima-header h1{
   margin:0;
   font-family:'Anton',sans-serif;
@@ -133,10 +135,12 @@
 }
 
 .proxima-count{
-  max-width:720px;
-  margin:0 auto 22px;
+  max-width:1000px;
+  margin:0 auto 24px;
+  display:flex;
+  align-items:center;
+  gap:18px;
 }
-
 .proxima-evento{
   display:grid;
   grid-template-columns:.9fr 1.6fr .9fr;
@@ -160,21 +164,21 @@
   min-width:0;
 }
 
-.proxima-extra strong{
+.pelea-secundaria{
   display:block;
   font-family:'Anton',sans-serif;
-  font-size:clamp(22px,2.3vw,34px);
+  font-size:clamp(18px,1.6vw,24px);
   line-height:1.08;
   text-transform:uppercase;
+  margin-bottom:20px;
 }
 
-.proxima-extra strong span{
+.pelea-secundaria span{
   display:block;
   color:#f2c94c;
   font-size:.65em;
-  margin:8px 0;
+  margin:6px 0;
 }
-
 .proxima-info{
   background:transparent;
   border:0;
@@ -182,6 +186,36 @@
   padding:0;
   height:auto;
   box-sizing:border-box;
+}
+.nombre-funcion{
+  margin:0 0 18px;
+}
+
+.nombre-funcion strong{
+  display:block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px;
+  letter-spacing:1.2px;
+  color:#f2c94c;
+  text-transform:uppercase;
+  margin-bottom:7px;
+}
+
+.nombre-funcion span{
+  display:block;
+  font-family:'Anton',sans-serif;
+  font-size:22px;
+  line-height:1.05;
+  color:var(--canvas);
+  text-transform:uppercase;
+  margin-bottom:5px;
+}
+
+.nombre-funcion small{
+  display:block;
+  font-size:12px;
+  line-height:1.3;
+  color:var(--canvas-dim);
 }
 
 .proxima-info h2{
@@ -209,7 +243,11 @@
   display:grid;
   gap:12px;
 }
-
+.event-data-extra{
+  margin-top:18px;
+  padding-top:16px;
+  border-top:1px solid var(--line-strong);
+}
 .event-data div{
   padding:11px 0;
   border-top:1px solid var(--line-strong);
@@ -246,9 +284,10 @@
   display:block;
   margin-bottom:24px;
 }
-  .proxima-count{
-    width:100%;
-  }
+.proxima-count{
+  width:100%;
+  display:block;
+}
 .proxima-header{
   display:block;
   padding-bottom:12px;
@@ -257,10 +296,11 @@
 
 .proxima-header .eyebrow{
   margin-bottom:7px;
+  font-size:11px;
+  letter-spacing:2px;
 }
-
 .proxima-header h1{
-  font-size:23px;
+  font-size:19px;
   line-height:1.05;
   text-align:left;
 }
@@ -268,13 +308,9 @@
 .proxima-fecha{
   display:block;
   margin:5px 0 0;
-  font-size:20px;
+  font-size:16px;
+  white-space:nowrap;
 }
-  .countdown{
-    grid-template-columns:repeat(4,1fr);
-    gap:6px;
-  }
-
   .count-box{
     padding:10px 4px;
   }
@@ -313,11 +349,10 @@
 .countdown{
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  gap:8px;
-  margin:0 0 12px;
+  gap:6px;
+  margin:0 0 10px;
   width:100%;
 }
-
 .count-box{
   min-width:0;
   padding:12px 8px;
@@ -350,9 +385,20 @@
   .hero h1{font-family:'Anton',sans-serif;font-size:clamp(34px,5.5vw,64px);line-height:0.98;letter-spacing:0.5px;text-transform:uppercase;}
   .hero h1 .accent{color:#f2c94c;}
   .status-badge{
-    display:flex;align-items:center;gap:10px;background:var(--ink-2);border:1px solid var(--line-strong);
-    padding:10px 16px;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500;letter-spacing:1px;
-  }
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:var(--ink-2);
+  border:1px solid var(--line-strong);
+  padding:10px 16px;
+  border-radius:3px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:13px;
+  font-weight:500;
+  letter-spacing:1px;
+  flex-shrink:0;
+  white-space:nowrap;
+}
   .status-badge .pulse{width:10px;height:10px;border-radius:50%;background:var(--red);position:relative;flex:none;}
   .status-badge .pulse::after{
     content:"";position:absolute;inset:-5px;border-radius:50%;border:1.5px solid var(--red);
@@ -614,161 +660,80 @@
     </div>
   </div>
 
-  <!-- INFORMACIÓN DEL EVENTO -->
-  <div class="proxima-evento">
+ <!-- INFORMACIÓN DEL EVENTO -->
+<div class="proxima-evento">
 
-    <div class="proxima-info">
-      <div class="eyebrow">CAMPEONATO MUNDIAL WBC</div>
+  <!-- PELEA ESTELAR -->
+  <div class="proxima-info">
 
-      <h2>
-        DIANA “BONITA” FERNÁNDEZ
-        <span>VS</span>
-        CLOTHILDE DEL BEN
-      </h2>
+    <div class="eyebrow">CAMPEONATO MUNDIAL WBC</div>
 
-      <div class="event-data">
-        <div>
-          <small>SEDE</small>
-          <strong>Gimnasio Josué Neri Santos · Ciudad Juárez</strong>
-        </div>
+    <div class="nombre-funcion">
+      <strong>CAMPEONATO MUNDIAL · BOX TELEVISA</strong>
+      <span>VIVA MÉXICO CABRONES</span>
+      <small>Campeonato Mundial WBC en Ciudad Juárez</small>
+    </div>
 
-        <div>
-          <small>FECHA</small>
-          <strong>Sábado 19 de septiembre de 2026</strong>
-        </div>
+    <h2>
+      DIANA “BONITA” FERNÁNDEZ
+      <span>VS</span>
+      CLOTHILDE DEL BEN
+    </h2>
 
-        <div>
-          <small>HORA</small>
-          <strong>7:00 PM</strong>
-        </div>
+    <p class="proxima-descripcion">
+      La mexicana Diana “Bonita” Fernández tendrá una gran oportunidad ante la francesa Clothilde Del Ben, en una noche de campeonato mundial avalada por el Consejo Mundial de Boxeo. Ciudad Juárez será escenario de una función internacional de primer nivel.
+    </p>
+
+  </div>
+
+  <!-- CARTEL -->
+  <div class="proxima-cartel">
+    <img
+      src="images/cartelera/juarez-diana-fernandez.jpg"
+      alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
+    >
+  </div>
+
+  <!-- PELEA COESTELAR + DATOS -->
+  <div class="proxima-extra">
+
+    <div class="eyebrow">TAMBIÉN EN LA CARTELERA</div>
+
+    <strong class="pelea-secundaria">
+      Daijhon González “Gladiator”
+      <span>VS</span>
+      Ramón Montes “Donas”
+    </strong>
+
+    <div class="event-data event-data-extra">
+
+      <div>
+        <small>SEDE</small>
+        <strong>Gimnasio Josué Neri Santos · Ciudad Juárez, Chihuahua</strong>
       </div>
-    </div>
 
-    <div class="proxima-cartel">
-      <img
-        src="images/cartelera/juarez-diana-fernandez.jpg"
-        alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre"
-      >
-    </div>
+      <div>
+        <small>FECHA</small>
+        <strong>Sábado 19 de septiembre de 2026</strong>
+      </div>
 
-    <div class="proxima-extra">
-      <div class="eyebrow">TAMBIÉN EN LA CARTELERA</div>
-      <strong>
-        Daijhon González “Gladiator”
-        <span>VS</span>
-        Ramón Montes “Donas”
-      </strong>
+      <div>
+        <small>HORA</small>
+        <strong>7:00 PM</strong>
+      </div>
+
+      <div>
+        <small>TRANSMISIÓN</small>
+        <strong>Box Televisa · ViX · Canal 5 · TUDN</strong>
+      </div>
+
     </div>
 
   </div>
 
 </div>
-      <div class="stream-frame" id="streamEnVivo">
-        <div class="stream-corner tl"></div>
-        <div class="stream-corner tr"></div>
-        <div class="stream-corner bl"></div>
-        <div class="stream-corner br"></div>
-        <iframe
-          class="stream-embed"
-          src="https://player.kick.com/latinkopromotions"
-          title="Transmisión en vivo de Latin KO Promotions en Kick"
-          allow="autoplay; fullscreen; encrypted-media"
-          allowfullscreen
-          loading="lazy">
-        </iframe>
-      </div>
 
-      <div class="stream-bar" id="streamBarEnVivo">
-        <div class="left">
-          <span>Transmitido en directo desde <b>Kick</b></span>
-          <span>·</span>
-          <span>Canal oficial: <b class="mono">kick.com/latinkopromotions</b></span>
-        </div>
-        <a class="open-kick" href="https://kick.com/latinkopromotions" target="_blank" rel="noopener">Abrir en Kick ↗</a>
-      </div>
-    </div>
-  </section>
-
-  <div class="wrap"><div class="ropes"><div class="mid"></div></div></div>
-
-  <!-- CARTELERA / EVENTO -->
-<section class="bill" id="cartelera">
-  <div class="wrap">
-
-    <div class="bill-head">
-      <div>
-        <div class="section-title">Próxima cartelera</div>
-        <div class="section-sub">
-          Ciudad Juárez recibe una gran noche de campeonato mundial con Diana Fernández buscando hacer historia ante Clothilde Del Ben.
-        </div>
-      </div>
-    </div>
-
-    <!-- IMAGEN PRINCIPAL DE LA FUNCIÓN -->
-    <div class="event-poster">
-      <img
-        src="images/cartelera/juarez-diana-fernandez.jpg"
-        alt="Diana Fernández vs Clothilde Del Ben - Campeonato Mundial WBC">
-    </div>
-
-    <div class="bill-grid">
-
-      <!-- FUNCIÓN ESTELAR -->
-      <div class="card main-event">
-
-        <div class="tag-row">
-          <span class="tag red">Campeonato mundial</span>
-          <span class="tag gold">Box Televisa</span>
-        </div>
-
-        <div class="event-title">
-          VIVA MÉXICO CABRONES
-        </div>
-
-        <div class="event-subtitle">
-          Campeonato Mundial WBC en Ciudad Juárez
-        </div>
-
-        <div class="matchup">
-          <span class="fighter-name">Diana "Bonita" Fernández</span>
-          <span class="vs">VS</span>
-          <span class="fighter-name">Clothilde Del Ben</span>
-        </div>
-
-        <div class="event-description">
-          La mexicana Diana "Bonita" Fernández tendrá una gran oportunidad
-          ante la francesa Clothilde Del Ben, en una noche de campeonato
-          mundial avalada por el Consejo Mundial de Boxeo.
-          Ciudad Juárez será escenario de una función internacional de primer nivel.
-        </div>
-
-        <div class="meta-list">
-
-          <div>
-            <b>Sede</b>
-            Gimnasio Josué Neri Santos · Ciudad Juárez, Chihuahua
-          </div>
-
-          <div>
-            <b>Fecha</b>
-            Sábado 19 de septiembre de 2026
-          </div>
-
-          <div>
-            <b>Hora</b>
-            7:00 PM
-          </div>
-
-          <div>
-            <b>Transmisión</b>
-            Box Televisa · ViX · Canal 5 · TUDN
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- CARTELERA / SEMIFINAL -->
+</div> <!-- CARTELERA / SEMIFINAL -->
       <div class="card broadcast-card">
 
         <h3>También en la cartelera</h3>
