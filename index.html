@@ -299,16 +299,20 @@
   font-size:11px;
   letter-spacing:2px;
 }
+
 .proxima-header h1{
-  font-size:19px;
-  line-height:1.05;
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  font-size:16px;
+  line-height:1;
   text-align:left;
-  white-space:normal;
+  white-space:nowrap;
 }
 .proxima-fecha{
-  display:table;
-  margin:5px 0 0;
-  font-size:13px;
+  display:inline;
+  margin:0;
+  font-size:14px;
   line-height:1;
   white-space:nowrap;
 }
@@ -459,7 +463,7 @@
   height:auto;
   object-fit:contain;
 }
-  .main-event{padding:28px;position:relative;overflow:hidden;}
+f  .main-event{padding:28px;position:relative;overflow:hidden;}
   .main-event::before{
     content:"CARTELERA";position:absolute;right:-10px;top:14px;font-family:'Anton',sans-serif;
     font-size:76px;color:rgba(233,225,204,0.035);letter-spacing:2px;pointer-events:none;
@@ -760,9 +764,9 @@
           MÉXICO, TIERRA DE VICTORIAS
         </div>
 
-        <div class="event-subtitle">
-          Una gran noche de boxeo desde Pachuca, Hidalgo
-        </div>
+ <div class="event-subtitle" style="margin-bottom:18px;">
+  UNA GRAN NOCHE DE BOXEO DESDE PACHUCA, HIDALGO
+</div>
 
         <div class="event-poster">
           <img
