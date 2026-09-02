@@ -1,3 +1,27 @@
+/* LATINKO_CONTENIDO_NETWORK_V1 */
+// El contenido compartido siempre va a la red; la app conserva su propio respaldo.
+self.addEventListener('install', function() { self.skipWaiting(); });
+self.addEventListener('activate', function(event) { event.waitUntil(self.clients.claim()); });
+self.addEventListener('fetch', function(event) {
+  const url = new URL(event.request.url);
+  if (url.pathname === '/contenido.json') {
+    event.stopImmediatePropagation();
+    event.respondWith(fetch(event.request, { cache: 'no-store' }));
+  } else if (url.origin === self.location.origin && event.request.mode === 'navigate' && (url.pathname === '/' || url.pathname === '/index.html')) {
+    event.stopImmediatePropagation();
+    event.respondWith((async function() {
+      const cache = await caches.open('latinko-shell-sync-v1');
+      try {
+        const response = await fetch(event.request, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Página no disponible');
+        try { await cache.put(event.request, response.clone()); } catch (_) {}
+        return response;
+      } catch (_) {
+        return await cache.match(event.request) || await caches.match(event.request) || new Response('Sin conexión. Intenta de nuevo cuando tengas internet.', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
+      }
+    })());
+  }
+});
 // Service Worker - Latin KO Promotions
 // Versión del caché: sube este número cada vez que publiques cambios importantes
 const CACHE_NAME = "latinko-cache-v1";
