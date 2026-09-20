@@ -6,7 +6,7 @@
     "titulo": "Latin KO TV · En vivo"
   },
   "proxima": {
-    "inicio": "2026-09-19T19:00:00-06:00",
+    "inicio": "2026-09-19T19:45:00-06:00",
     "encabezado": "PRÓXIMA TRANSMISIÓN",
     "ciudad": "CIUDAD <span class=\"accent\">JUÁREZ</span>",
     "fechaCorta": "19 DE SEPTIEMBRE",
@@ -21,7 +21,7 @@
     "imagen": "images/cartelera/juarez-diana-fernandez.jpg",
     "sede": "Gimnasio Josué Neri Santos · Ciudad Juárez, Chihuahua",
     "fecha": "Sábado 19 de septiembre de 2026",
-    "hora": "7:00 PM",
+    "hora": "7:45 PM",
     "transmision": "Box Televisa · ViX · Canal 5 · TUDN"
   },
   "cartelera": {
