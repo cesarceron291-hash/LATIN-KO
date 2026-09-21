@@ -26,30 +26,30 @@
     "fin": "2026-09-27T01:00:00-06:00"
   },
   "cartelera": {
-    "encabezado": "Próxima cartelera",
-    "descripcion": "Pachuca recibe una nueva noche de boxeo con México, Tierra de Victorias.",
-    "fechaCorta": "26 DE SEPTIEMBRE",
-    "etiqueta": "FERIA DE PACHUCA",
-    "titulo": "MÉXICO, TIERRA DE VICTORIAS",
-    "subtitulo": "UNA GRAN NOCHE DE BOXEO DESDE PACHUCA, HIDALGO",
+    "encabezado": "Siguiente función",
+    "descripcion": "Gómez Palacio recibe una nueva noche de boxeo con campeonato internacional.",
+    "fechaCorta": "10 DE OCTUBRE",
+    "etiqueta": "GÓMEZ PALACIO · DURANGO",
+    "titulo": "CAMPEONATO MUNDIAL SILVER WBC",
+    "subtitulo": "UNA GRAN NOCHE DE BOXEO DESDE GÓMEZ PALACIO, DURANGO",
     "listaTitulo": "También en la cartelera",
-    "imagen": "images/cartelera/pachuca-tierra-de-victorias-3.jpg",
-    "sede": "Feria de Pachuca · Pachuca, Hidalgo",
-    "fecha": "Sábado 26 de septiembre de 2026",
-    "hora": "18:00 hrs",
+    "imagen": "images/cartelera/gomez-palacio-10-octubre.png",
+    "sede": "Gómez Palacio, Durango",
+    "fecha": "Sábado 10 de octubre de 2026",
+    "hora": "7:00 PM",
     "transmision": "ViX · Canal 5 · TUDN",
     "combates": [
       {
-        "titulo": "Jesús Lezama vs Ratón Robles",
-        "descripcion": "Uno de los combates destacados de la función en Pachuca."
+        "titulo": "Joe Shiraishi vs Cohan Rodríguez",
+        "descripcion": "Campeonato Mundial Silver WBC."
       },
       {
-        "titulo": "Pichi Salgado vs Topito Sánchez",
-        "descripcion": "Otro de los enfrentamientos anunciados para México, Tierra de Victorias."
+        "titulo": "Yamil Luna vs Bryan Rivera “Azteca”",
+        "descripcion": "Combate anunciado para la función de Gómez Palacio."
       },
       {
-        "titulo": "Jackie Nava · Invitada especial",
-        "descripcion": "La histórica campeona mexicana estará presente en esta gran noche de boxeo."
+        "titulo": "Yuri Rodríguez “Mapimí” vs Eduardo Martínez",
+        "descripcion": "Otro de los enfrentamientos anunciados para la cartelera."
       },
       {
         "titulo": "Transmisión nacional",
