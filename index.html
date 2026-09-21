@@ -151,6 +151,17 @@
 
 .proxima-cartel{
   min-width:0;
+  width:70%;
+  max-width:950px;
+  margin:0 auto 28px;
+}
+
+@media(max-width:600px){
+  .proxima-cartel{
+    width:100%;
+    max-width:none;
+    margin:0 0 22px;
+  }
 }
 
 .proxima-cartel img{
@@ -221,7 +232,7 @@
 
 .proxima-info h2{
   font-family:'Anton',sans-serif;
-  font-size:clamp(18px,1.7vw,26px);
+  font-size:clamp(28px,2.5vw,42px);
   line-height:1.06;
   text-transform:uppercase;
   margin:0 0 18px;
@@ -350,6 +361,33 @@
 
   .proxima-info h2{
     font-size:26px;
+  }
+
+  .proxima-info h2 span{
+    display:inline;
+  }
+
+  @media(max-width:600px){
+    .proxima-info h2{
+      font-size:clamp(14px,3.8vw,18px);
+      white-space:nowrap;
+      line-height:1.15;
+    }
+
+    .proxima-info h2{
+      font-size:clamp(11px,3.35vw,15px) !important;
+      white-space:nowrap !important;
+      overflow:visible;
+      width:100%;
+      max-width:100%;
+      letter-spacing:0;
+    }
+
+    .proxima-info h2 span{
+      display:inline !important;
+      margin:0 3px;
+      font-size:1em;
+    }
   }
 }
 .countdown{
@@ -716,6 +754,11 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
 <span>PRÓXIMAMENTE</span>
 </div>
 </div>
+<!-- CARTEL -->
+<div class="proxima-cartel">
+<img alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre" data-atributo="src" data-contenido="proxima.imagen" data-tipo="image" src="images/cartelera/juarez-diana-fernandez.jpg"/>
+</div>
+
 <!-- INFORMACIÓN DEL EVENTO -->
 <div class="proxima-evento">
 <!-- PELEA ESTELAR -->
@@ -734,10 +777,6 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
 <p class="proxima-descripcion" data-contenido="proxima.descripcion" data-tipo="text">
       La mexicana Diana “Bonita” Fernández tendrá una gran oportunidad ante la francesa Clothilde Del Ben, en una noche de campeonato mundial avalada por el Consejo Mundial de Boxeo. Ciudad Juárez será escenario de una función internacional de primer nivel.
     </p>
-</div>
-<!-- CARTEL -->
-<div class="proxima-cartel">
-<img alt="Diana Fernández vs Clothilde Del Ben — Ciudad Juárez, 19 de septiembre" data-atributo="src" data-contenido="proxima.imagen" data-tipo="image" src="images/cartelera/juarez-diana-fernandez.jpg"/>
 </div>
 <!-- PELEA COESTELAR + DATOS -->
 <div class="proxima-extra">
