@@ -315,6 +315,13 @@
   border-top:1px solid var(--line-strong);
 }
 
+@media(min-width:901px){
+  .proxima-info h2,.pelea-secundaria{width:100%;text-align:center;white-space:nowrap;}
+  .proxima-info h2{font-size:clamp(32px,3.2vw,48px);}
+  .pelea-secundaria{font-size:clamp(24px,2.2vw,32px);}
+  .event-data-extra{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;}
+}
+
 @media(max-width:900px){
   .proxima-grid{
   display:block;
