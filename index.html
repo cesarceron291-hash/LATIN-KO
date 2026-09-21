@@ -144,14 +144,20 @@
 }
 .proxima-evento{
   display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:22px;
-  align-items:center;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:40px;
+  align-items:start;
+}
+
+.proxima-info,
+.proxima-extra{
+  width:100%;
+  min-width:0;
 }
 
 .proxima-cartel{
   min-width:0;
-  width:70%;
+  width:85%;
   max-width:950px;
   margin:0 auto 28px;
 }
