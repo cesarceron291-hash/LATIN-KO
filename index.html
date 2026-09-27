@@ -1481,7 +1481,7 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
     document.querySelector('#cartelera .event-poster img').alt=data.cartelera.titulo;
     for(const el of document.querySelectorAll('[data-lista]'))renderList(el,el.dataset.lista,get(data,el.dataset.lista));
     // Shared equivalent of the previous MODO_EN_VIVO switch.
-    const inicioEnVivo=Date.parse(data.proxima.inicio); const finEnVivo=Date.parse(data.proxima.fin); const ahora=Date.now(); const MODO_EN_VIVO=data.enVivo.activo || (Number.isFinite(inicioEnVivo) && Number.isFinite(finEnVivo) && ahora >= inicioEnVivo && ahora < finEnVivo);
+    const MODO_EN_VIVO=data.enVivo.activo === true;
     document.getElementById('proximaTransmision').hidden=MODO_EN_VIVO;
     document.getElementById('streamEnVivo').hidden=!MODO_EN_VIVO;
     const player=document.getElementById('kickPlayer');
