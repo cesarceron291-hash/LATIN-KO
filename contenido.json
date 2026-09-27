@@ -1,7 +1,7 @@
 {
   "version": 1,
   "enVivo": {
-    "activo": true,
+    "activo": false,
     "canalKick": "latinkopromotions",
     "titulo": "Latin KO TV · En vivo"
   },
