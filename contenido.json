@@ -6,56 +6,60 @@
     "titulo": "Latin KO TV · En vivo"
   },
   "proxima": {
-    "inicio": "2026-09-26T19:45:00-06:00",
+    "inicio": "2026-10-10T19:00:00-06:00",
     "encabezado": "PRÓXIMA TRANSMISIÓN",
-    "ciudad": "PACHUCA <span class=\"accent\">HIDALGO</span>",
-    "fechaCorta": "26 DE SEPTIEMBRE",
-    "categoria": "FERIA DE PACHUCA",
-    "titulo": "MÉXICO, TIERRA DE VICTORIAS",
-    "lema": "MÉXICO: TIERRA DE VICTORIAS",
-    "subtitulo": "UNA GRAN NOCHE DE BOXEO DESDE PACHUCA, HIDALGO",
-    "descripcion": "Pachuca recibe una nueva noche de boxeo con México, Tierra de Victorias.",
-    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
-    "pelea": "JESÚS LEZAMA\n      <span>VS</span>\n      RATÓN ROBLES",
-    "coestelar": "PICHI SALGADO\n      <span>VS</span>\n      TOPITO SÁNCHEZ",
-    "imagen": "images/cartelera/pachuca-26-septiembre-16x9.png",
-    "promo": "videos/promos/pachuca-26-septiembre.mp4",
-    "sede": "Feria de Pachuca · Pachuca, Hidalgo",
-    "fecha": "Sábado 26 de septiembre de 2026",
-    "hora": "7:45 PM",
-    "transmision": "ViX · Canal 5 · TUDN",
-    "fin": "2026-09-26T22:55:24-06:00"
-  },
-  "cartelera": {
-    "encabezado": "Siguiente función",
-    "descripcion": "Gómez Palacio recibe una nueva noche de boxeo con campeonato internacional.",
+    "ciudad": "GÓMEZ PALACIO <span class=\"accent\">DURANGO</span>",
     "fechaCorta": "10 DE OCTUBRE",
-    "etiqueta": "GÓMEZ PALACIO · DURANGO",
+    "categoria": "CAMPEONATO MUNDIAL SILVER WBC",
     "titulo": "CAMPEONATO MUNDIAL SILVER WBC",
+    "lema": "CAMPEONATO MUNDIAL SILVER WBC",
     "subtitulo": "UNA GRAN NOCHE DE BOXEO DESDE GÓMEZ PALACIO, DURANGO",
-    "listaTitulo": "También en la cartelera",
-    "promo": "videos/promos/gomez-palacio-10-octubre.mp4",
+    "descripcion": "Gómez Palacio recibe una nueva noche de boxeo con campeonato internacional.",
+    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
+    "pelea": "JOE SHIRAISHI\n      <span>VS</span>\n      COHAN RODRÍGUEZ",
+    "coestelar": "YAMIL LUNA\n      <span>VS</span>\n      BRYAN RIVERA “AZTECA”",
     "imagen": "images/cartelera/gomez-palacio-10-octubre.png",
+    "promo": "videos/promos/gomez-palacio-10-octubre.mp4",
     "sede": "Gómez Palacio, Durango",
     "fecha": "Sábado 10 de octubre de 2026",
     "hora": "7:00 PM",
     "transmision": "ViX · Canal 5 · TUDN",
+    "fin": "2026-10-10T19:00:00-06:00"
+  },
+  "cartelera": {
+    "encabezado": "Próxima cartelera",
+    "descripcion": "Mexican Style en el Poliforum Cancún.",
+    "fechaCorta": "24 DE OCTUBRE",
+    "etiqueta": "CANCÚN",
+    "titulo": "MEXICAN STYLE",
+    "subtitulo": "CELEX VS ALAMEDA · CAMPEONATO INTERNACIONAL WBC",
+    "listaTitulo": "También en la cartelera",
+    "promo": "videos/promos/cancun-24-octubre.mp4",
+    "imagen": "images/cartelera/cancun-24-octubre.jpeg",
+    "sede": "Poliforum Cancún",
+    "fecha": "Sábado 24 de octubre de 2026",
+    "hora": "POR CONFIRMAR",
+    "transmision": "ViX · Canal 5 · TUDN",
     "combates": [
       {
-        "titulo": "Joe Shiraishi vs Cohan Rodríguez",
-        "descripcion": "Campeonato Mundial Silver WBC."
+        "titulo": "Celex vs Alameda",
+        "descripcion": "Campeonato internacional WBC."
       },
       {
-        "titulo": "Yamil Luna vs Bryan Rivera “Azteca”",
-        "descripcion": "Combate anunciado para la función de Gómez Palacio."
+        "titulo": "David “El General” Cuéllar",
+        "descripcion": "Anunciado en el cartel."
       },
       {
-        "titulo": "Yuri Rodríguez “Mapimí” vs Eduardo Martínez",
-        "descripcion": "Otro de los enfrentamientos anunciados para la cartelera."
+        "titulo": "Javid “Gallo Giro” Ramírez",
+        "descripcion": "Anunciado en el cartel."
       },
       {
-        "titulo": "Transmisión nacional",
-        "descripcion": "Sigue la función a través de ViX, Canal 5 y TUDN."
+        "titulo": "Asley “Chiquita” González",
+        "descripcion": "Anunciada en el cartel."
+      },
+      {
+        "titulo": "Cecilia “La Bomba” Rodríguez",
+        "descripcion": "Anunciada en el cartel."
       }
     ]
   },
