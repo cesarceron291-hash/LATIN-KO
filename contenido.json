@@ -65,30 +65,41 @@
   },
   "ultimasPeleas": {
     "encabezado": "Revive la acción",
-    "titulo": "Revive el boxeo de Latin KO",
-    "descripcion": "Tres combates de la función de Latin KO celebrada en Tijuana, Baja California. Reprodúcelos directamente desde LATINKO.TV.",
-    "fecha": "Tijuana · 29 AGO 2026",
+    "titulo": "Revive las últimas peleas",
+    "descripcion": "Cuatro combates recientes de Latin KO. Selecciona una pelea para verla completa.",
+    "fecha": "LATIN KO TV · PELEAS RECIENTES",
     "combates": [
       {
-        "youtubeId": "srtymsGEKPk",
-        "titulo": "Kenia Enríquez <span class=\"nick\">vs</span> Luz Elena “Guerrerita” Aguilar",
-        "etiqueta": "Pelea estelar",
-        "ciudad": "Tijuana",
-        "detalle": "Latin KO Promotions · 29 de agosto de 2026"
+        "youtubeId": "lupB24P6_TU",
+        "titulo": "Abraham Lezama <span class=\"nick\">vs</span> Héctor “Ratón” Robles",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/abraham-lezama-vs-hector-raton-robles.png"
       },
       {
-        "youtubeId": "F29Ng8SPvE4",
-        "titulo": "Christopher “Pollo” López <span class=\"nick\">vs</span> Arturo “Bam Bam” Hernández",
-        "etiqueta": "Repetición",
-        "ciudad": "Tijuana",
-        "detalle": "Latin KO Promotions · 29 de agosto de 2026"
+        "youtubeId": "pIx0NPmy2bY",
+        "titulo": "Héctor “Sepulturero” Munguía <span class=\"nick\">vs</span> Edgar de la Cruz",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/hector-munguia-vs-edgar-de-la-cruz.png"
       },
       {
-        "youtubeId": "o7xttlpY8f0",
-        "titulo": "Javid “Gallo Giro” Ramírez <span class=\"nick\">vs</span> Ishwar Siquerios",
-        "etiqueta": "Repetición",
-        "ciudad": "Tijuana",
-        "detalle": "Latin KO Promotions · 29 de agosto de 2026"
+        "youtubeId": "SqtKWlybJKc",
+        "titulo": "Ricardo “Pichi” Salgado <span class=\"nick\">vs</span> Joel “Topito” Sánchez",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/ricardo-salgado-vs-joel-sanchez.png"
+      },
+      {
+        "youtubeId": "Q0v0QlQcoYQ",
+        "titulo": "Aarón de la Cruz <span class=\"nick\">vs</span> Pedro Alarcón",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/aaron-de-la-cruz-vs-pedro-alarcon.png"
       }
     ]
   },
