@@ -1538,6 +1538,27 @@ style="margin:20px auto;padding:14px 28px;border:1px solid #d6ad55;border-radius
     promoVideo.removeAttribute('src');
     promoVideo.load();
   });
+  // Posición de los botones de promo bajo cada cartel.
+  for (const [nombre, selector, despues] of [
+    ['proxima', '.proxima-cartel', false],
+    ['cartelera', '#cartelera .event-poster', true]
+  ]) {
+    const boton = document.getElementById('promo-' + nombre + '-boton');
+    const lugar = document.querySelector(selector);
+    const anterior = boton.closest('.promo-evento') || boton.parentElement;
+    if (!lugar) continue;
+    const soporte = document.createElement('div');
+    soporte.style.cssText = 'text-align:center;margin:16px auto 0;';
+    boton.style.padding = '18px 38px';
+    boton.style.fontSize = '1.12rem';
+    boton.style.minWidth = '220px';
+    soporte.append(boton);
+    if (despues) {
+      lugar.style.marginBottom = '0';
+      lugar.after(soporte);
+    } else lugar.append(soporte);
+    anterior.remove();
+  }
   refresh(true);setInterval(()=>refresh(),60000);
   window.addEventListener('online',()=>refresh(true));
   document.addEventListener('visibilitychange',()=>{if(document.visibilityState!=='hidden')refresh(true);});
