@@ -823,15 +823,11 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
 </div>
 </div>
 </section>
-<!-- PROMO DE LA FUNCIÓN -->
-<section class="promo-evento">
-<div class="wrap">
-<div class="eyebrow">VIDEO PROMOCIONAL</div>
-<video controls playsinline preload="metadata" style="width:100%;max-width:950px;aspect-ratio:16/9;display:block;margin:16px auto 0;border-radius:12px;background:#000;object-fit:contain;">
-<source src="videos/promos/pachuca-26-septiembre.mp4" type="video/mp4">
-</video>
-</div>
-</section>
+<!-- PROMO PRÓXIMA TRANSMISIÓN -->
+<section class="promo-evento"><div class="wrap" style="text-align:center">
+<button id="promo-proxima-boton" type="button" hidden
+style="margin:20px auto;padding:14px 28px;border:1px solid #d6ad55;border-radius:10px;background:#102b55;color:white;font:inherit;font-weight:700;cursor:pointer">▶ VER PROMO</button>
+</div></section>
 
 <!-- PRÓXIMA CARTELERA -->
 <section class="bill" id="cartelera">
@@ -900,15 +896,15 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
 </div>
 </div>
 </section>
-<!-- PROMO SIGUIENTE FUNCIÓN -->
-<section class="promo-evento">
-<div class="wrap">
-<div class="eyebrow">VIDEO PROMOCIONAL · GÓMEZ PALACIO</div>
-<video controls playsinline preload="metadata" style="width:100%;max-width:950px;aspect-ratio:16/9;display:block;margin:16px auto 0;border-radius:12px;background:#000;object-fit:contain;">
-<source src="videos/promos/gomez-palacio-10-octubre.mp4" type="video/mp4">
-</video>
-</div>
-</section>
+<dialog id="promo-dialogo" style="width:min(95vw,980px);padding:12px;border:1px solid #d6ad55;border-radius:12px;background:#08172e;color:white">
+<button id="promo-cerrar" type="button" style="display:block;margin:0 0 10px auto;padding:8px 14px;cursor:pointer">Cerrar ✕</button>
+<video id="promo-video" controls playsinline preload="none" style="display:block;width:100%;aspect-ratio:16/9;background:#000"></video>
+</dialog>
+<!-- PROMO PRÓXIMA CARTELERA -->
+<section class="promo-evento"><div class="wrap" style="text-align:center">
+<button id="promo-cartelera-boton" type="button" hidden
+style="margin:20px auto;padding:14px 28px;border:1px solid #d6ad55;border-radius:10px;background:#102b55;color:white;font:inherit;font-weight:700;cursor:pointer">▶ VER PROMO</button>
+</div></section>
 
 <!-- ÚLTIMAS PELEAS — TIJUANA -->
 <section class="latest-fights" id="ultimas-peleas">
@@ -1469,6 +1465,16 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
     listSignatures.set(container,signature);
   }
   function apply(data) {
+    for (const nombre of ['proxima', 'cartelera']) {
+      const boton = document.getElementById('promo-' + nombre + '-boton');
+      try {
+        boton.dataset.src = data[nombre].promo ? url(data[nombre].promo) : '';
+        boton.hidden = !boton.dataset.src;
+      } catch {
+        boton.hidden = true;
+      }
+    }
+
     validate(data);
     for(const el of document.querySelectorAll('[data-contenido]')) {
       const value=get(data,el.dataset.contenido);
@@ -1517,6 +1523,21 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
   try {const cached=localStorage.getItem(CACHE);if(cached)apply(validate(JSON.parse(cached)));}catch{try{localStorage.removeItem(CACHE);}catch{}}
   document.getElementById('year').textContent=new Date().getFullYear();
   countdown();setInterval(countdown,1000);
+  const promoDialogo = document.getElementById('promo-dialogo');
+  const promoVideo = document.getElementById('promo-video');
+  for (const nombre of ['proxima', 'cartelera']) {
+    document.getElementById('promo-' + nombre + '-boton').addEventListener('click', event => {
+      promoVideo.src = event.currentTarget.dataset.src;
+      promoDialogo.showModal();
+      promoVideo.play().catch(() => {});
+    });
+  }
+  document.getElementById('promo-cerrar').addEventListener('click', () => promoDialogo.close());
+  promoDialogo.addEventListener('close', () => {
+    promoVideo.pause();
+    promoVideo.removeAttribute('src');
+    promoVideo.load();
+  });
   refresh(true);setInterval(()=>refresh(),60000);
   window.addEventListener('online',()=>refresh(true));
   document.addEventListener('visibilitychange',()=>{if(document.visibilityState!=='hidden')refresh(true);});
