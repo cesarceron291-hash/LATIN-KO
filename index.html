@@ -708,6 +708,27 @@ f  .main-event{padding:28px;position:relative;overflow:hidden;}
 .proxima-grid{display:block;}
 @media(max-width:900px){.proxima-header h1{white-space:normal;flex-wrap:wrap;}}
 @media(max-width:980px){nav.links.menu-abierto{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--ink);padding:20px 28px;gap:12px;border-bottom:1px solid var(--line);}}
+
+/* Fecha de próxima transmisión en dos renglones (escritorio) */
+@media (min-width: 900px) {
+  .proxima-header h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    min-width: 0;
+    max-width: 100%;
+    font-size: clamp(36px, 4vw, 72px);
+    white-space: normal;
+  }
+  .proxima-header h1 .ciudad,
+  .proxima-header h1 .proxima-fecha {
+    display: block;
+    max-width: 100%;
+    white-space: normal;
+  }
+  .proxima-header h1 .proxima-fecha { margin-left: 0; }
+}
 </style></head>
 <body>
 <header>
