@@ -6,60 +6,45 @@
     "titulo": "Latin KO TV · En vivo"
   },
   "proxima": {
-    "inicio": "2026-10-10T19:00:00-06:00",
+    "inicio": "2026-10-24T20:00:00-05:00",
     "encabezado": "PRÓXIMA TRANSMISIÓN",
-    "ciudad": "GÓMEZ PALACIO <span class=\"accent\">DURANGO</span>",
-    "fechaCorta": "10 DE OCTUBRE",
-    "categoria": "CAMPEONATO MUNDIAL SILVER WBC",
-    "titulo": "CAMPEONATO MUNDIAL SILVER WBC",
-    "lema": "CAMPEONATO MUNDIAL SILVER WBC",
-    "subtitulo": "UNA GRAN NOCHE DE BOXEO DESDE GÓMEZ PALACIO, DURANGO",
-    "descripcion": "Gómez Palacio recibe una nueva noche de boxeo con campeonato internacional.",
+    "ciudad": "CANCÚN",
+    "fechaCorta": "24 DE OCTUBRE",
+    "categoria": "CAMPEONATO INTERNACIONAL WBC",
+    "titulo": "CAMPEONATO INTERNACIONAL WBC",
+    "lema": "MEXICAN STYLE",
+    "subtitulo": "CELEX VS ALAMEDA · POLIFORUM CANCÚN",
+    "descripcion": "Celex y Alameda encabezan Mexican Style en el Poliforum Cancún.",
     "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
-    "pelea": "JOE SHIRAISHI\n      <span>VS</span>\n      COHAN RODRÍGUEZ",
-    "coestelar": "YAMIL LUNA\n      <span>VS</span>\n      BRYAN RIVERA “AZTECA”",
-    "imagen": "images/cartelera/gomez-palacio-10-octubre.png",
-    "promo": "videos/promos/gomez-palacio-10-octubre.mp4",
-    "sede": "Gómez Palacio, Durango",
-    "fecha": "Sábado 10 de octubre de 2026",
-    "hora": "7:00 PM",
+    "pelea": "CELEX <span>VS</span> ALAMEDA",
+    "coestelar": "David “El General” Cuéllar<br>Javid “Gallo Giro” Ramírez<br>Asley “Chiquita” González<br>Cecilia “La Bomba” Rodríguez",
+    "imagen": "images/cartelera/cancun-24-octubre.jpeg",
+    "promo": "videos/promos/cancun-24-octubre.mp4",
+    "sede": "Poliforum Cancún",
+    "fecha": "Sábado 24 de octubre de 2026",
+    "hora": "8:00 PM · Hora de Cancún",
     "transmision": "ViX · Canal 5 · TUDN",
-    "fin": "2026-10-10T19:00:00-06:00"
+    "fin": "",
+    "horarioConfirmado": true
   },
   "cartelera": {
     "encabezado": "Próxima cartelera",
-    "descripcion": "Mexican Style en el Poliforum Cancún.",
-    "fechaCorta": "24 DE OCTUBRE",
-    "etiqueta": "CANCÚN",
-    "titulo": "MEXICAN STYLE",
-    "subtitulo": "CELEX VS ALAMEDA · CAMPEONATO INTERNACIONAL WBC",
+    "descripcion": "Guerra Civil: Obregón vs Empalme.",
+    "fechaCorta": "7 DE NOVIEMBRE",
+    "etiqueta": "OBREGÓN",
+    "titulo": "GUERRA CIVIL",
+    "subtitulo": "PEDRO PEÑUÑURI VS MARCO COTA · OBREGÓN VS EMPALME",
     "listaTitulo": "También en la cartelera",
-    "promo": "videos/promos/cancun-24-octubre.mp4",
-    "imagen": "images/cartelera/cancun-24-octubre.jpeg",
-    "sede": "Poliforum Cancún",
-    "fecha": "Sábado 24 de octubre de 2026",
-    "hora": "POR CONFIRMAR",
-    "transmision": "ViX · Canal 5 · TUDN",
+    "promo": "videos/promos/promo-obregon-7-noviembre.mp4",
+    "imagen": "images/cartelera/poster-obregon-7-noviembre.jpeg",
+    "sede": "Gimnasio Municipal de Obregón",
+    "fecha": "Sábado 7 de noviembre de 2026",
+    "hora": "6:00 PM",
+    "transmision": "Box Televisa",
     "combates": [
       {
-        "titulo": "Celex vs Alameda",
-        "descripcion": "Campeonato internacional WBC."
-      },
-      {
-        "titulo": "David “El General” Cuéllar",
-        "descripcion": "Anunciado en el cartel."
-      },
-      {
-        "titulo": "Javid “Gallo Giro” Ramírez",
-        "descripcion": "Anunciado en el cartel."
-      },
-      {
-        "titulo": "Asley “Chiquita” González",
-        "descripcion": "Anunciada en el cartel."
-      },
-      {
-        "titulo": "Cecilia “La Bomba” Rodríguez",
-        "descripcion": "Anunciada en el cartel."
+        "titulo": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
+        "descripcion": "Combate anunciado en el póster."
       }
     ]
   },
@@ -381,5 +366,18 @@
         "url": "https://x.com/LatinKOprom"
       }
     ]
+  },
+  "adicional": {
+    "encabezado": "Más funciones",
+    "fechaCorta": "5 DE DICIEMBRE",
+    "etiqueta": "PUEBLA",
+    "titulo": "LA BATALLA",
+    "subtitulo": "BARBY VS BONITA",
+    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
+    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
+    "sede": "Estadio de Beisbol Hermanos Serdán",
+    "fecha": "Sábado 5 de diciembre de 2026",
+    "hora": "POR CONFIRMAR",
+    "transmision": "Box Televisa"
   }
 }
