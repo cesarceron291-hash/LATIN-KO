@@ -55,36 +55,36 @@
     "fecha": "LATIN KO TV · PELEAS RECIENTES",
     "combates": [
       {
-        "youtubeId": "lupB24P6_TU",
-        "titulo": "Abraham Lezama <span class=\"nick\">vs</span> Héctor “Ratón” Robles",
+        "youtubeId": "G8sxH6L4s9s",
+        "titulo": "Gohan Rodríguez <span class=\"nick\">vs</span> Joe Shiraishi",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/abraham-lezama-vs-hector-raton-robles.png"
+        "imagen": "images/peleas/gohan-rodriguez-vs-joe-shiraishi.png"
       },
       {
-        "youtubeId": "pIx0NPmy2bY",
-        "titulo": "Héctor “Sepulturero” Munguía <span class=\"nick\">vs</span> Edgar de la Cruz",
+        "youtubeId": "YDEv6Kl3tII",
+        "titulo": "Yuri “Mapimi” Rodríguez <span class=\"nick\">vs</span> Eduardo “Lalo” Martínez",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/hector-munguia-vs-edgar-de-la-cruz.png"
+        "imagen": "images/peleas/yuri-mapimi-rodriguez-vs-eduardo-lalo-martinez.png"
       },
       {
-        "youtubeId": "SqtKWlybJKc",
-        "titulo": "Ricardo “Pichi” Salgado <span class=\"nick\">vs</span> Joel “Topito” Sánchez",
+        "youtubeId": "KDWz5lL-xmY",
+        "titulo": "Yamil Luna <span class=\"nick\">vs</span> Bryan “Azteca” Rivera",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/ricardo-salgado-vs-joel-sanchez.png"
+        "imagen": "images/peleas/yamil-luna-vs-bryan-azteca-rivera.png"
       },
       {
-        "youtubeId": "Q0v0QlQcoYQ",
-        "titulo": "Aarón de la Cruz <span class=\"nick\">vs</span> Pedro Alarcón",
+        "youtubeId": "i46ur7A1tHw",
+        "titulo": "Nicolás “Nico” Segovia <span class=\"nick\">vs</span> Kevin “Toreto” Machado",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/aaron-de-la-cruz-vs-pedro-alarcon.png"
+        "imagen": "images/peleas/nicolas-nico-segovia-vs-kevin-toreto-machado.png"
       }
     ]
   },
