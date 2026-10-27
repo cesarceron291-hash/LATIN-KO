@@ -6,29 +6,7 @@
     "titulo": "Latin KO TV · En vivo"
   },
   "proxima": {
-    "inicio": "2026-10-24T20:00:00-05:00",
     "encabezado": "PRÓXIMA TRANSMISIÓN",
-    "ciudad": "CANCÚN",
-    "fechaCorta": "24 DE OCTUBRE",
-    "categoria": "CAMPEONATO INTERNACIONAL WBC",
-    "titulo": "CAMPEONATO INTERNACIONAL WBC",
-    "lema": "MEXICAN STYLE",
-    "subtitulo": "CELEX VS ALAMEDA · POLIFORUM CANCÚN",
-    "descripcion": "Celex y Alameda encabezan Mexican Style en el Poliforum Cancún.",
-    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
-    "pelea": "CELEX <span>VS</span> ALAMEDA",
-    "coestelar": "David “El General” Cuéllar<br>Javid “Gallo Giro” Ramírez<br>Asley “Chiquita” González<br>Cecilia “La Bomba” Rodríguez",
-    "imagen": "images/cartelera/cancun-24-octubre.jpeg",
-    "promo": "videos/promos/cancun-24-octubre.mp4",
-    "sede": "Poliforum Cancún",
-    "fecha": "Sábado 24 de octubre de 2026",
-    "hora": "8:00 PM · Hora de Cancún",
-    "transmision": "ViX · Canal 5 · TUDN",
-    "fin": "",
-    "horarioConfirmado": true
-  },
-  "cartelera": {
-    "encabezado": "Próxima cartelera",
     "descripcion": "Guerra Civil: Obregón vs Empalme.",
     "fechaCorta": "7 DE NOVIEMBRE",
     "etiqueta": "OBREGÓN",
@@ -46,7 +24,32 @@
         "titulo": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
         "descripcion": "Combate anunciado en el póster."
       }
-    ]
+    ],
+    "inicio": "2026-11-07T18:00:00-07:00",
+    "ciudad": "OBREGÓN",
+    "categoria": "",
+    "lema": "OBREGÓN VS EMPALME",
+    "pelea": "PEDRO PEÑUÑURI <span>VS</span> MARCO COTA",
+    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
+    "coestelar": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
+    "fin": "",
+    "horarioConfirmado": true
+  },
+  "cartelera": {
+    "encabezado": "Próxima cartelera",
+    "fechaCorta": "5 DE DICIEMBRE",
+    "etiqueta": "PUEBLA",
+    "titulo": "LA BATALLA",
+    "subtitulo": "BARBY VS BONITA",
+    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
+    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
+    "sede": "Estadio de Beisbol Hermanos Serdán",
+    "fecha": "Sábado 5 de diciembre de 2026",
+    "hora": "POR CONFIRMAR",
+    "transmision": "Box Televisa",
+    "descripcion": "La Batalla: Barby vs Bonita.",
+    "listaTitulo": "",
+    "combates": []
   },
   "ultimasPeleas": {
     "encabezado": "Revive la acción",
@@ -55,36 +58,36 @@
     "fecha": "LATIN KO TV · PELEAS RECIENTES",
     "combates": [
       {
-        "youtubeId": "G8sxH6L4s9s",
-        "titulo": "Gohan Rodríguez <span class=\"nick\">vs</span> Joe Shiraishi",
+        "youtubeId": "qUduG1_EwvY",
+        "titulo": "Celex Castro <span class=\"nick\">vs</span> Aarón Alameda",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/gohan-rodriguez-vs-joe-shiraishi.png"
+        "imagen": "images/peleas/Celex Castro vs Aarón Alameda.png"
       },
       {
-        "youtubeId": "YDEv6Kl3tII",
-        "titulo": "Yuri “Mapimi” Rodríguez <span class=\"nick\">vs</span> Eduardo “Lalo” Martínez",
+        "youtubeId": "mwKZFVGQhVc",
+        "titulo": "Cecilia “La Bomba” Rodríguez <span class=\"nick\">vs</span> Asley “Chiquita” González",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/yuri-mapimi-rodriguez-vs-eduardo-lalo-martinez.png"
+        "imagen": "images/peleas/Cecilia Rodríguez vs Asley González.png"
       },
       {
-        "youtubeId": "KDWz5lL-xmY",
-        "titulo": "Yamil Luna <span class=\"nick\">vs</span> Bryan “Azteca” Rivera",
+        "youtubeId": "DmcK_-YwOdE",
+        "titulo": "Javid “Gallo Giro” Ramírez <span class=\"nick\">vs</span> Luis “El King” Reyes",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/yamil-luna-vs-bryan-azteca-rivera.png"
+        "imagen": "images/peleas/Javid Ramírez vs Luis Reyes.png"
       },
       {
-        "youtubeId": "i46ur7A1tHw",
-        "titulo": "Nicolás “Nico” Segovia <span class=\"nick\">vs</span> Kevin “Toreto” Machado",
+        "youtubeId": "M6mVptlXg4o",
+        "titulo": "Mauricio “Mole” León <span class=\"nick\">vs</span> Ernesto “La Brasa” Díaz",
         "etiqueta": "Pelea completa",
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/nicolas-nico-segovia-vs-kevin-toreto-machado.png"
+        "imagen": "images/peleas/Mauricio Mole vs Ernesto La Brasa.png"
       }
     ]
   },
@@ -368,16 +371,16 @@
     ]
   },
   "adicional": {
-    "encabezado": "Más funciones",
-    "fechaCorta": "5 DE DICIEMBRE",
-    "etiqueta": "PUEBLA",
-    "titulo": "LA BATALLA",
-    "subtitulo": "BARBY VS BONITA",
-    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
-    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
-    "sede": "Estadio de Beisbol Hermanos Serdán",
-    "fecha": "Sábado 5 de diciembre de 2026",
-    "hora": "POR CONFIRMAR",
-    "transmision": "Box Televisa"
+    "encabezado": "",
+    "fechaCorta": "",
+    "etiqueta": "",
+    "titulo": "",
+    "subtitulo": "",
+    "imagen": "",
+    "promo": "",
+    "sede": "",
+    "fecha": "",
+    "hora": "",
+    "transmision": ""
   }
 }
