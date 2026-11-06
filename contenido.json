@@ -118,201 +118,174 @@
         "semblanza": "semblanzas/david-cuellar.html"
       },
       {
-        "nombre": "Bryan <span class=\"nick\">\"El Niño Maravilla\"</span> Flores",
-        "foto": "images/bryan-flores.jpg",
-        "fotoDescripcion": "Bryan Flores",
-        "clasificacion": "#30 WBC",
-        "record": "25-0, 14 KO's",
-        "division": "Superligero · 140 lbs",
-        "semblanza": ""
+        "nombre": "Aarón De La Cruz",
+        "foto": "images/aaron-de-la-cruz.png",
+        "fotoDescripcion": "Aarón De La Cruz",
+        "clasificacion": "",
+        "record": "15-0-0, 10 KO’s",
+        "division": "",
+        "semblanza": "semblanzas/aaron-de-la-cruz.html"
       },
       {
         "nombre": "Bryan <span class=\"nick\">\"Destructor\"</span> Mercado",
         "foto": "images/bryan-mercado.jpg",
         "fotoDescripcion": "Bryan Mercado",
         "clasificacion": "#12 WBC",
-        "record": "27-1, 22 KO's",
+        "record": "33-2-0, 27 KO’s",
         "division": "Supergallo · 122 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Oscar <span class=\"nick\">\"Migraña\"</span> Duarte",
-        "foto": "images/oscar-duarte.jpg",
-        "fotoDescripcion": "Oscar Duarte",
-        "clasificacion": "",
-        "record": "26-2-1, 21 KO's",
-        "division": "Superligero · 140 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Rosario <span class=\"nick\">\"Pinocho\"</span> Sánchez",
-        "foto": "images/rosario-sanchez.jpg",
-        "fotoDescripcion": "Rosario Sánchez",
-        "clasificacion": "",
-        "record": "18-0, 11 KO's",
-        "division": "Ligero · 135 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Joselito <span class=\"nick\">\"Huracán\"</span> Velázquez",
-        "foto": "images/joselito-velazquez.jpg",
-        "fotoDescripcion": "Joselito Velázquez",
-        "clasificacion": "",
-        "record": "18-1-1, 12 KO's",
-        "division": "Mosca · 112 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Cristopher López",
-        "foto": "images/cristopher-lopez.jpg",
-        "fotoDescripcion": "Cristopher López",
-        "clasificacion": "",
-        "record": "16-0-2, 10 KO's",
-        "division": "Supergallo · 122 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Aarón Alameda",
-        "foto": "images/aaron-alameda.jpg",
-        "fotoDescripcion": "Aarón Alameda",
-        "clasificacion": "#14 WBC",
-        "record": "28-2, 16 KO's",
-        "division": "Supergallo · 122 lbs",
-        "semblanza": ""
+        "semblanza": "semblanzas/bryan-mercado.html"
       },
       {
         "nombre": "Celex Castro",
         "foto": "images/celex-castro.jpg",
         "fotoDescripcion": "Celex Castro",
         "clasificacion": "",
-        "record": "14-0, 11 KO's",
+        "record": "24-0-0, 18 KO’s",
         "division": "Pluma · 126 lbs",
-        "semblanza": ""
+        "semblanza": "semblanzas/celex-castro.html"
       },
       {
-        "nombre": "Juan Pablo <span class=\"nick\">\"Pivi\"</span> Romero",
-        "foto": "images/juan-romero.jpg",
-        "fotoDescripcion": "Juan Pablo Romero",
+        "nombre": "Cristopher López",
+        "foto": "images/cristopher-lopez.jpg",
+        "fotoDescripcion": "Cristopher López",
         "clasificacion": "",
-        "record": "14-1-1, 9 KO's",
-        "division": "Wélter · 154 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Mariana <span class=\"nick\">\"La Barby\"</span> Juárez",
-        "foto": "images/mariana-juarez.jpg",
-        "fotoDescripcion": "Mariana Juárez",
-        "clasificacion": "#2 WBC",
-        "record": "55-13-4, 19 KO's",
-        "division": "Gallo · 118 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Yuliahn <span class=\"nick\">\"Cobrita\"</span> Luna",
-        "foto": "images/yuliahn-luna.jpg",
-        "fotoDescripcion": "Yuliahn Luna",
-        "clasificacion": "#2 WBC",
-        "record": "25-4-1, 4 KO's",
-        "division": "Gallo · 118 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Lourdes <span class=\"nick\">\"La Pequeña Lulú\"</span> Juárez",
-        "foto": "images/lourdes-juarez.jpg",
-        "fotoDescripcion": "Lourdes Juárez",
-        "clasificacion": "#3 WBC",
-        "record": "35-4, 4 KO's",
-        "division": "Supermosca · 115 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Yesenia <span class=\"nick\">\"La Niña\"</span> Gómez",
-        "foto": "images/yesenia-gomez.jpg",
-        "fotoDescripcion": "Yesenia Gómez",
-        "clasificacion": "#3 WBC",
-        "record": "29-6-4, 6 KO's",
-        "division": "Mosca · 108 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Miguel <span class=\"nick\">\"Micky\"</span> Román",
-        "foto": "images/miguel-roman.jpg",
-        "fotoDescripcion": "Miguel Román",
-        "clasificacion": "#21 WBC",
-        "record": "67-14, 49 KO's",
-        "division": "Superpluma · 130 lbs",
-        "semblanza": ""
-      },
-      {
-        "nombre": "Jorge Lugo Cota",
-        "foto": "images/jorge-lugo.jpg",
-        "fotoDescripcion": "Jorge Lugo Cota",
-        "clasificacion": "",
-        "record": "12-0, 9 KO's",
-        "division": "Ligero · 135 lbs",
-        "semblanza": ""
+        "record": "22-0-2, 13 KO’s",
+        "division": "Supergallo · 122 lbs",
+        "semblanza": "semblanzas/cristopher-lopez.html"
       },
       {
         "nombre": "Diana <span class=\"nick\">\"La Bonita\"</span> Fernández",
         "foto": "images/diana-fernandez.jpg",
         "fotoDescripcion": "Diana Fernández",
         "clasificacion": "#3 WBC",
-        "record": "30-4-1, 4 KO's",
+        "record": "38-4-1, 5 KO’s",
         "division": "Supermosca · 115 lbs",
-        "semblanza": ""
+        "semblanza": "semblanzas/diana-fernandez.html"
+      },
+      {
+        "nombre": "Estefany Alegría <span class=\"nick\">“Fanny”</span>",
+        "foto": "images/estefany-alegria.png",
+        "fotoDescripcion": "Estefany Alegría",
+        "clasificacion": "",
+        "record": "15-1-0, 4 KO’s",
+        "division": "",
+        "semblanza": "semblanzas/estefany-alegria.html"
+      },
+      {
+        "nombre": "Gabriela Sánchez <span class=\"nick\">“Bonita”</span>",
+        "foto": "images/gabriela-sanchez.png",
+        "fotoDescripcion": "Gabriela Sánchez",
+        "clasificacion": "",
+        "record": "13-6-0, 1 KO’s",
+        "division": "",
+        "semblanza": "semblanzas/gabriela-sanchez.html"
+      },
+      {
+        "nombre": "Gohan Rodríguez",
+        "foto": "images/gohan-rodriguez.png",
+        "fotoDescripcion": "Gohan Rodríguez",
+        "clasificacion": "",
+        "record": "21-4-1, 4 KO’s",
+        "division": "",
+        "semblanza": "semblanzas/gohan-rodriguez.html"
+      },
+      {
+        "nombre": "Heriberto Flores <span class=\"nick\">“El Viejón”</span>",
+        "foto": "images/heriberto-flores.png",
+        "fotoDescripcion": "Heriberto Flores",
+        "clasificacion": "",
+        "record": "17-1-0, 13 Ko’s",
+        "division": "",
+        "semblanza": "semblanzas/heriberto-flores.html"
       },
       {
         "nombre": "Javid Ramírez",
         "foto": "images/javid-ramirez.jpg",
         "fotoDescripcion": "Javid Ramírez",
         "clasificacion": "",
-        "record": "11-0, 5 KO's",
+        "record": "17-0-1, 9 KO’s",
         "division": "Mediano · 160 lbs",
-        "semblanza": ""
+        "semblanza": "semblanzas/javid-ramirez.html"
       },
       {
-        "nombre": "Carlos <span class=\"nick\">\"Príncipe\"</span> Araujo",
-        "foto": "images/carlos-araujo.jpg",
-        "fotoDescripcion": "Carlos Araujo",
+        "nombre": "Joselito <span class=\"nick\">\"Huracán\"</span> Velázquez",
+        "foto": "images/joselito-velazquez.jpg",
+        "fotoDescripcion": "Joselito Velázquez",
         "clasificacion": "",
-        "record": "15-1, 12 KO's",
-        "division": "Pluma · 126 lbs",
-        "semblanza": ""
+        "record": "23-1-1, 15 KO’s",
+        "division": "Mosca · 112 lbs",
+        "semblanza": "semblanzas/joselito-velazquez.html"
       },
       {
-        "nombre": "Luis Alberto <span class=\"nick\">\"Peluchín\"</span> Araujo",
-        "foto": "images/luis-alberto-araujo.jpg",
-        "fotoDescripcion": "Luis Alberto Araujo",
-        "clasificacion": "",
-        "record": "12-1-2, 8 KO's",
+        "nombre": "Lourdes <span class=\"nick\">\"La Pequeña Lulú\"</span> Juárez",
+        "foto": "images/lourdes-juarez.jpg",
+        "fotoDescripcion": "Lourdes Juárez",
+        "clasificacion": "#3 WBC",
+        "record": "40-4-0, 5 KO’s",
         "division": "Supermosca · 115 lbs",
+        "semblanza": "semblanzas/lourdes-juarez.html"
+      },
+      {
+        "nombre": "Mariana <span class=\"nick\">\"La Barby\"</span> Juárez",
+        "foto": "images/mariana-juarez.jpg",
+        "fotoDescripcion": "Mariana Juárez",
+        "clasificacion": "#2 WBC",
+        "record": "58-13-4, 20 KO’s",
+        "division": "Gallo · 118 lbs",
+        "semblanza": "semblanzas/mariana-juarez.html"
+      },
+      {
+        "nombre": "Miguel Esparza <span class=\"nick\">“Fantástico”</span>",
+        "foto": "images/miguel-esparza.png",
+        "fotoDescripcion": "Miguel Esparza",
+        "clasificacion": "",
+        "record": "22-1-0, 15 KO’s",
+        "division": "",
+        "semblanza": "semblanzas/miguel-esparza.html"
+      },
+      {
+        "nombre": "Alejandro Cota",
+        "foto": "images/alejandro-cota.png",
+        "fotoDescripcion": "Alejandro Cota",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
         "semblanza": ""
       },
       {
-        "nombre": "Eduardo Martínez",
-        "foto": "images/eduardo-martinez.jpg",
-        "fotoDescripcion": "Eduardo Martínez",
+        "nombre": "Cecilia Rodríguez",
+        "foto": "images/cecilia-rodriguez.png",
+        "fotoDescripcion": "Cecilia Rodríguez",
         "clasificacion": "",
-        "record": "11-2, 8 KO's",
-        "division": "Ligero · 135 lbs",
+        "record": "",
+        "division": "",
         "semblanza": ""
       },
       {
-        "nombre": "Ariel <span class=\"nick\">\"Apache\"</span> Moreno Jr.",
-        "foto": "images/ariel-moreno.jpg",
-        "fotoDescripcion": "Ariel Moreno Jr.",
+        "nombre": "Christopher Gutiérrez",
+        "foto": "images/christopher-gutierrez.png",
+        "fotoDescripcion": "Christopher Gutiérrez",
         "clasificacion": "",
-        "record": "8-1, 7 KO's",
-        "division": "Supergallo · 122 lbs",
+        "record": "",
+        "division": "",
         "semblanza": ""
       },
       {
-        "nombre": "José Luis <span class=\"nick\">\"Niño\"</span> Gómez",
-        "foto": "images/jose-luis-gomez.jpg",
-        "fotoDescripcion": "José Luis Gómez",
+        "nombre": "Emmanuel Arellano",
+        "foto": "images/emmanuel-arellano.png",
+        "fotoDescripcion": "Emmanuel Arellano",
         "clasificacion": "",
-        "record": "5-0, 3 KO's",
-        "division": "Superpluma · 130 lbs",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Fabián Esparza",
+        "foto": "images/fabian-esparza.png",
+        "fotoDescripcion": "Fabián Esparza",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
         "semblanza": ""
       },
       {
@@ -325,12 +298,84 @@
         "semblanza": ""
       },
       {
-        "nombre": "Derek Primero",
-        "foto": "images/derek-primero.jpg",
-        "fotoDescripcion": "Derek Primero",
+        "nombre": "Jose Ramón Montes",
+        "foto": "images/jose-ramon-montes.png",
+        "fotoDescripcion": "Jose Ramón Montes",
         "clasificacion": "",
-        "record": "4-0, 2 KO's",
-        "division": "Mosca · 112 lbs",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Joseph Castañeda",
+        "foto": "images/joseph-castaneda.png",
+        "fotoDescripcion": "Joseph Castañeda",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Karim Arce",
+        "foto": "images/karim-arce.png",
+        "fotoDescripcion": "Karim Arce",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Kenia Enríquez",
+        "foto": "images/kenia-enriquez.png",
+        "fotoDescripcion": "Kenia Enríquez",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Marco Cota",
+        "foto": "images/marco-cota.png",
+        "fotoDescripcion": "Marco Cota",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Oscar <span class=\"nick\">\"Migraña\"</span> Duarte",
+        "foto": "images/oscar-duarte.jpg",
+        "fotoDescripcion": "Oscar Duarte",
+        "clasificacion": "",
+        "record": "26-2-1, 21 KO's",
+        "division": "Superligero · 140 lbs",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Pedro Peñuñuri",
+        "foto": "images/pedro-penunuri.png",
+        "fotoDescripcion": "Pedro Peñuñuri",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Ricardo Salgado",
+        "foto": "images/ricardo-salgado.png",
+        "fotoDescripcion": "Ricardo Salgado",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
+        "semblanza": ""
+      },
+      {
+        "nombre": "Yamil Luna",
+        "foto": "images/yamil-luna.png",
+        "fotoDescripcion": "Yamil Luna",
+        "clasificacion": "",
+        "record": "",
+        "division": "",
         "semblanza": ""
       }
     ]
