@@ -37,19 +37,32 @@
   },
   "cartelera": {
     "encabezado": "Próxima cartelera",
-    "fechaCorta": "5 DE DICIEMBRE",
-    "etiqueta": "PUEBLA",
-    "titulo": "LA BATALLA",
-    "subtitulo": "BARBY VS BONITA",
-    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
-    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
-    "sede": "Estadio de Beisbol Hermanos Serdán",
-    "fecha": "Sábado 5 de diciembre de 2026",
+    "descripcion": "Gala internacional de boxeo en Chetumal. México vs Argentina.",
+    "fechaCorta": "28 DE NOVIEMBRE",
+    "etiqueta": "CHETUMAL",
+    "titulo": "GALA INTERNACIONAL DE BOXEO",
+    "subtitulo": "DIANA “LA BONITA” FERNÁNDEZ VS AIXA ADEMA",
+    "imagen": "images/cartelera/poster-chetumal-28-noviembre.png",
+    "promo": "videos/promos/promo chetumal-28-noviembre.mp4",
+    "listaTitulo": "También en la cartelera",
+    "combates": [
+      {
+        "titulo": "Bryan “El Destructor” Mercado",
+        "descripcion": "Rival por designar."
+      },
+      {
+        "titulo": "David “El General” Cuéllar vs Arturo “Bam Bam” Hernández",
+        "descripcion": "Duelo entre mexicanos."
+      },
+      {
+        "titulo": "Juan Anacona vs Rihuano Yekola",
+        "descripcion": "Combate internacional entre Colombia y Nigeria."
+      }
+    ],
+    "sede": "Parque Quintana Roo",
+    "fecha": "Sábado 28 de noviembre de 2026",
     "hora": "POR CONFIRMAR",
-    "transmision": "Box Televisa",
-    "descripcion": "La Batalla: Barby vs Bonita.",
-    "listaTitulo": "",
-    "combates": []
+    "transmision": "Box Televisa · Canal 5 · TUDN · ViX"
   },
   "ultimasPeleas": {
     "encabezado": "Revive la acción",
@@ -371,16 +384,19 @@
     ]
   },
   "adicional": {
-    "encabezado": "",
-    "fechaCorta": "",
-    "etiqueta": "",
-    "titulo": "",
-    "subtitulo": "",
-    "imagen": "",
-    "promo": "",
-    "sede": "",
-    "fecha": "",
-    "hora": "",
-    "transmision": ""
+    "encabezado": "Más funciones",
+    "fechaCorta": "5 DE DICIEMBRE",
+    "etiqueta": "PUEBLA",
+    "titulo": "LA BATALLA",
+    "subtitulo": "BARBY VS BONITA",
+    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
+    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
+    "sede": "Estadio de Beisbol Hermanos Serdán",
+    "fecha": "Sábado 5 de diciembre de 2026",
+    "hora": "POR CONFIRMAR",
+    "transmision": "Box Televisa",
+    "descripcion": "La Batalla: Barby vs Bonita.",
+    "listaTitulo": "",
+    "combates": []
   }
 }
