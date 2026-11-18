@@ -7,36 +7,6 @@
   },
   "proxima": {
     "encabezado": "PRÓXIMA TRANSMISIÓN",
-    "descripcion": "Guerra Civil: Obregón vs Empalme.",
-    "fechaCorta": "7 DE NOVIEMBRE",
-    "etiqueta": "OBREGÓN",
-    "titulo": "GUERRA CIVIL",
-    "subtitulo": "PEDRO PEÑUÑURI VS MARCO COTA · OBREGÓN VS EMPALME",
-    "listaTitulo": "También en la cartelera",
-    "promo": "videos/promos/promo-obregon-7-noviembre.mp4",
-    "imagen": "images/cartelera/poster-obregon-7-noviembre.jpeg",
-    "sede": "Gimnasio Municipal de Obregón",
-    "fecha": "Sábado 7 de noviembre de 2026",
-    "hora": "6:00 PM",
-    "transmision": "Box Televisa",
-    "combates": [
-      {
-        "titulo": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
-        "descripcion": "Combate anunciado en el póster."
-      }
-    ],
-    "inicio": "2026-11-07T18:00:00-07:00",
-    "ciudad": "OBREGÓN",
-    "categoria": "",
-    "lema": "OBREGÓN VS EMPALME",
-    "pelea": "PEDRO PEÑUÑURI <span>VS</span> MARCO COTA",
-    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
-    "coestelar": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
-    "fin": "2026-11-17T19:05:05-06:00",
-    "horarioConfirmado": true
-  },
-  "cartelera": {
-    "encabezado": "Próxima cartelera",
     "descripcion": "Gala internacional de boxeo en Chetumal. México vs Argentina.",
     "fechaCorta": "28 DE NOVIEMBRE",
     "etiqueta": "CHETUMAL",
@@ -59,10 +29,44 @@
         "descripcion": "Combate internacional entre Colombia y Nigeria."
       }
     ],
-    "sede": "Parque Quintana Roo",
+    "sede": "Parque Quintana Roo · Chetumal, Quintana Roo",
     "fecha": "Sábado 28 de noviembre de 2026",
+    "hora": "19:00 h · Hora de Chetumal",
+    "transmision": "Box Televisa · Canal 5 · TUDN · ViX",
+    "inicio": "2026-11-28T19:00:00-05:00",
+    "ciudad": "CHETUMAL",
+    "categoria": "",
+    "lema": "MÉXICO VS ARGENTINA",
+    "pelea": "DIANA “LA BONITA” FERNÁNDEZ <span>VS</span> AIXA ADEMA",
+    "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
+    "coestelar": "Bryan “El Destructor” Mercado (rival por designar)<br>David “El General” Cuéllar vs Arturo “Bam Bam” Hernández<br>Juan Anacona vs Rihuano Yekola",
+    "fin": "",
+    "horarioConfirmado": true
+  },
+  "cartelera": {
+    "encabezado": "Próxima cartelera",
+    "fechaCorta": "5 DE DICIEMBRE",
+    "etiqueta": "PUEBLA",
+    "titulo": "LA BATALLA",
+    "subtitulo": "MARIANA “BARBY” JUÁREZ VS GABRIELA “BONITA” SÁNCHEZ SAAVEDRA",
+    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
+    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
+    "sede": "Estadio Hermanos Serdán · Puebla",
+    "fecha": "Sábado 5 de diciembre de 2026",
     "hora": "POR CONFIRMAR",
-    "transmision": "Box Televisa · Canal 5 · TUDN · ViX"
+    "transmision": "Box Televisa · Sábados de Box · Canal 5",
+    "descripcion": "La Batalla en Puebla, en el marco de la gran final de México Tierra de Victorias.",
+    "listaTitulo": "También en la cartelera",
+    "combates": [
+      {
+        "titulo": "Emmanuel “Tigre” Arellano vs Joseph “Pulguín” Morales",
+        "descripcion": "Por el título FECARBOX WBC de peso pluma (126 libras). Arellano, campeón nacional pluma, llega con 9 victorias, 5 por nocaut."
+      },
+      {
+        "titulo": "Ricardo Salgado vs Abraham Lezama Amaya",
+        "descripcion": ""
+      }
+    ]
   },
   "ultimasPeleas": {
     "encabezado": "Revive la acción",
@@ -429,18 +433,18 @@
     ]
   },
   "adicional": {
-    "encabezado": "Más funciones",
-    "fechaCorta": "5 DE DICIEMBRE",
-    "etiqueta": "PUEBLA",
-    "titulo": "LA BATALLA",
-    "subtitulo": "BARBY VS BONITA",
-    "imagen": "images/cartelera/poster-puebla-5-diciembre.jpeg",
-    "promo": "videos/promos/promo-puebla-5-diciembre.mp4",
-    "sede": "Estadio de Beisbol Hermanos Serdán",
-    "fecha": "Sábado 5 de diciembre de 2026",
-    "hora": "POR CONFIRMAR",
-    "transmision": "Box Televisa",
-    "descripcion": "La Batalla: Barby vs Bonita.",
+    "encabezado": "",
+    "fechaCorta": "",
+    "etiqueta": "",
+    "titulo": "",
+    "subtitulo": "",
+    "imagen": "",
+    "promo": "",
+    "sede": "",
+    "fecha": "",
+    "hora": "",
+    "transmision": "",
+    "descripcion": "",
     "listaTitulo": "",
     "combates": []
   }
