@@ -1,7 +1,7 @@
 {
   "version": 1,
   "enVivo": {
-    "activo": true,
+    "activo": false,
     "canalKick": "latinkopromotions",
     "titulo": "Latin KO TV · En vivo"
   },
@@ -32,7 +32,7 @@
     "pelea": "PEDRO PEÑUÑURI <span>VS</span> MARCO COTA",
     "coestelarEncabezado": "TAMBIÉN EN LA CARTELERA",
     "coestelar": "Alejandro Cota vs Cristopher “Bad Bunny” Gutiérrez",
-    "fin": "",
+    "fin": "2026-11-17T19:05:05-06:00",
     "horarioConfirmado": true
   },
   "cartelera": {
