@@ -75,6 +75,22 @@
     "fecha": "LATIN KO TV · PELEAS RECIENTES",
     "combates": [
       {
+        "youtubeId": "1MwHJLsmPb8",
+        "titulo": "ALEJANDRO COTA VS CHRISTOPHER BAD BUNNY GUTIERREZ",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/cota-badbunny.png"
+      },
+      {
+        "youtubeId": "Vt_6EdeffjU",
+        "titulo": "PEDRO PEÑUÑURI VS MARCO COTA",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/penunuri-vs-cota.png"
+      },
+      {
         "youtubeId": "qUduG1_EwvY",
         "titulo": "Celex Castro <span class=\"nick\">vs</span> Aarón Alameda",
         "etiqueta": "Pelea completa",
@@ -89,22 +105,6 @@
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
         "imagen": "images/peleas/cecilia-rodriguez-vs-asley-gonzalez.png"
-      },
-      {
-        "youtubeId": "DmcK_-YwOdE",
-        "titulo": "Javid “Gallo Giro” Ramírez <span class=\"nick\">vs</span> Luis “El King” Reyes",
-        "etiqueta": "Pelea completa",
-        "ciudad": "Latin KO TV",
-        "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/javid-ramirez-vs-luis-reyes.png"
-      },
-      {
-        "youtubeId": "M6mVptlXg4o",
-        "titulo": "Mauricio “Mole” León <span class=\"nick\">vs</span> Ernesto “La Brasa” Díaz",
-        "etiqueta": "Pelea completa",
-        "ciudad": "Latin KO TV",
-        "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/Mauricio Mole vs Ernesto La Brasa.png"
       }
     ]
   },
