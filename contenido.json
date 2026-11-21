@@ -75,6 +75,14 @@
     "fecha": "LATIN KO TV · PELEAS RECIENTES",
     "combates": [
       {
+        "youtubeId": "DmcK_-YwOdE",
+        "titulo": "Javid “Gallo Giro” Ramírez <span class=\"nick\">vs</span> Luis “El King” Reyes",
+        "etiqueta": "Pelea completa",
+        "ciudad": "Latin KO TV",
+        "detalle": "Latin KO Promotions",
+        "imagen": "images/peleas/javid-ramirez-vs-luis-reyes.png"
+      },
+      {
         "youtubeId": "1MwHJLsmPb8",
         "titulo": "ALEJANDRO COTA VS CHRISTOPHER BAD BUNNY GUTIERREZ",
         "etiqueta": "Pelea completa",
@@ -97,14 +105,6 @@
         "ciudad": "Latin KO TV",
         "detalle": "Latin KO Promotions",
         "imagen": "images/peleas/celex-castro-vs-aaron-alameda.png"
-      },
-      {
-        "youtubeId": "mwKZFVGQhVc",
-        "titulo": "Cecilia “La Bomba” Rodríguez <span class=\"nick\">vs</span> Asley “Chiquita” González",
-        "etiqueta": "Pelea completa",
-        "ciudad": "Latin KO TV",
-        "detalle": "Latin KO Promotions",
-        "imagen": "images/peleas/cecilia-rodriguez-vs-asley-gonzalez.png"
       }
     ]
   },
